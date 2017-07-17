@@ -11,10 +11,10 @@ You only have to implement an INDEX and CREATE in the ShowsController (i.e not a
 The Show resource should have:
 
   - title:string
-    - series:integer
-      - description:text
-        - image:string
-          - programmeID:string
+  - series:integer
+  - description:text
+  - image:string
+  - programmeID:string
 
 
 ## Example Show
