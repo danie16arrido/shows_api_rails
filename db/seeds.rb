@@ -40,3 +40,8 @@ fav3 = Show.create( Show2)
 
 u1 = User.create( { name:"Daniel", last_name:"Garrido" } )
 u2 = User.create( { name:"John", last_name:"Polite" } )
+
+Favourite.create( { user:u1, show:fav1 } )
+Favourite.create( { user:u1, show:fav3 } )
+Favourite.create( { user:u2, show:fav1 } )
+Favourite.create( { user:u2, show:fav2 } )
