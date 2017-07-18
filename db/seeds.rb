@@ -7,6 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Show.delete_all
+User.delete_all
 
 Show0 = {
   "title": "The Great British Bake Off",
@@ -33,6 +34,9 @@ Show2 = {
   "programmeID": "Ki11em@11" 
 }
 
-Show.create( Show0)
-Show.create( Show1)
-Show.create( Show2)
+fav1 = Show.create( Show0)
+fav2 = Show.create( Show1)
+fav3 = Show.create( Show2)
+
+u1 = User.create( { name:"Daniel", last_name:"Garrido" } )
+u2 = User.create( { name:"John", last_name:"Polite" } )
